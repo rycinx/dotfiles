@@ -51,5 +51,10 @@
 │       ├── theme.toml               # 主题
 │       ├── package.toml             # 插件依赖
 │       └── Catppuccin-Mocha.tmTheme # 语法高亮主题
+├── .pi
+│   └── agent
+│       ├── settings.json            # Pi Agent 主配置（主题、默认模型、插件）
+│       ├── open-tui.json            # open-tui 界面配置
+│       └── pi-fff.json              # fff 文件搜索配置
 └── README.md
 ```
