@@ -1,5 +1,5 @@
 local Mod = "ALT"
-local terminal = "foot"
+local terminal = "ghostty"
 local ipc = "noctalia msg "
 
 hl.bind(Mod .. " + Space", hl.dsp.exec_cmd(ipc .. "panel-toggle launcher"))

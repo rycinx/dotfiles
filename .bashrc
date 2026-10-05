@@ -27,6 +27,7 @@ fi
 [[ -x $(command -v yazi) ]] && alias yz='yazi'
 [[ -x $(command -v lazygit) ]] && alias lg='lazygit'
 [[ -x $(command -v nvim) ]] && alias vi='nvim'
+[[ -x $(command -v zoxide) ]] && alias zz='z ..'
 
 [[ -f /usr/share/bash-completion/bash_completion ]] &&
 	. /usr/share/bash-completion/bash_completion

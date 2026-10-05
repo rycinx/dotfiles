@@ -1,8 +1,6 @@
 local lsp_list = {
 	"lua_ls",
 	"pyrefly",
-	"gopls",
-	"rust_analyzer",
 	"zls",
 	"tinymist",
 	"markdown_oxide",
