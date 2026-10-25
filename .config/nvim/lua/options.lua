@@ -1,7 +1,7 @@
 -- Make line numbers default
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.signcolumn = "auto"
+vim.opt.signcolumn = 'auto'
 
 -- Show which line your cursor is on
 vim.opt.cursorline = true
@@ -24,14 +24,14 @@ vim.opt.wrap = true
 vim.opt.breakindent = true
 
 -- nvim window border shape
-vim.opt.winborder = "rounded"
+vim.opt.winborder = 'rounded'
 
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 -- Keep signcolumn on by default
-vim.opt.signcolumn = "auto"
+vim.opt.signcolumn = 'auto'
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 5
@@ -42,15 +42,11 @@ vim.opt.updatetime = 250
 -- Save undo history
 vim.opt.undofile = true
 -- Preview substitutions live, as you type!
-vim.opt.inccommand = "split"
-
--- "<leader>" and "<localleader>" in keymap
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
+vim.opt.inccommand = 'split'
 
 -- use system clipboard
 vim.schedule(function()
-	vim.opt.clipboard = "unnamedplus"
+  vim.opt.clipboard = 'unnamedplus'
 end)
 
 -- use statusline plugins instead of old
