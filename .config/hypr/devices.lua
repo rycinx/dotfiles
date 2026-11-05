@@ -10,6 +10,10 @@ hl.config({
 		accel_profile = "flat",
 		sensitivity = -0.15, -- -1.0 - 1.0, 0 means no modification.
 	},
+	render = {
+		cm_auto_hdr = 0,
+		send_content_type = false,
+	},
 })
 hl.monitor({
 	output = "",
