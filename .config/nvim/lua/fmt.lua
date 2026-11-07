@@ -5,6 +5,7 @@ local fmt = {
   zig = { 'zig', 'fmt', '--stdin' },
   json = { 'jq', '.' },
   yaml = { 'yamlfmt' },
+  toml = { 'taplo', 'fmt', '-' },
   python = { 'ruff', 'format', '-' },
 }
 
