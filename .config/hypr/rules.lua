@@ -30,16 +30,3 @@ hl.window_rule({
 	float = true,
 	size = { 1080, 920 },
 })
-
-hl.window_rule({
-	name = "broswer",
-	match = { class = "zen|helium" },
-	workspace = "1",
-})
-
-hl.window_rule({
-	name = "qq",
-	match = { class = "QQ" },
-	workspace = "2",
-	no_initial_focus = true,
-})

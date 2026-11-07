@@ -1,14 +1,14 @@
 local Mod = "ALT"
-local terminal = "ghostty"
+local terminal = "kitty"
 local ipc = "noctalia msg "
 
 hl.bind(Mod .. " + Return", hl.dsp.exec_cmd(terminal))
-hl.bind(Mod .. " + Grave", hl.dsp.exec_cmd(terminal .. " +toggle-quick-terminal"))
+hl.bind(Mod .. " + Grave", hl.dsp.exec_cmd("kitten quick-access-terminal"))
 hl.bind(Mod .. " + Space", hl.dsp.exec_cmd(ipc .. "panel-toggle launcher"))
 hl.bind(Mod .. " + c", hl.dsp.exec_cmd(ipc .. "panel-toggle clipboard"))
 
 hl.bind(Mod .. " + q", hl.dsp.window.close())
-hl.bind(Mod .. " + v", hl.dsp.window.float())
+hl.bind(Mod .. " + t", hl.dsp.window.float())
 
 -- Scrolling Layout
 hl.bind(Mod .. " + r", hl.dsp.layout("colresize +conf"))
