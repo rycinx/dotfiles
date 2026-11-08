@@ -2,8 +2,9 @@ local Mod = "ALT"
 local terminal = "ghostty"
 local ipc = "noctalia msg "
 
-hl.bind(Mod .. " + Space", hl.dsp.exec_cmd(ipc .. "panel-toggle launcher"))
 hl.bind(Mod .. " + Return", hl.dsp.exec_cmd(terminal))
+hl.bind(Mod .. " + Grave", hl.dsp.exec_cmd(terminal .. " +toggle-quick-terminal"))
+hl.bind(Mod .. " + Space", hl.dsp.exec_cmd(ipc .. "panel-toggle launcher"))
 hl.bind(Mod .. " + c", hl.dsp.exec_cmd(ipc .. "panel-toggle clipboard"))
 
 hl.bind(Mod .. " + q", hl.dsp.window.close())
