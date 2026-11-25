@@ -1,0 +1,10 @@
+group {
+    proxy {
+        filter: subtag(owo) && !name(keyword: '剩余') && !name(keyword: '到期')
+        policy: min_moving_avg
+    }
+    ai {
+        filter: subtag(owo) && name(keyword: '日本')
+        policy: min_moving_avg
+    }
+}
